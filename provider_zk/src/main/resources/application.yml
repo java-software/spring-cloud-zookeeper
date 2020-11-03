@@ -1,0 +1,9 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: ProviderServer
+  cloud:
+    zookeeper:
+      connect-string: 106.52.175.96:2181
